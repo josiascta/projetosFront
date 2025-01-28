@@ -162,7 +162,7 @@ li p{
   flex-grow: 1;
 }
 
-main div:last-child{
+#alertDiv{
   display: flex;
   background-color: #C93847;
   padding: 12px;
@@ -172,13 +172,17 @@ main div:last-child{
   width: 627px;
   color: white;
   margin-top: 36px;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
 }
 
-main div:last-child p {
+#alertDiv p {
   flex-grow: 1; 
 }
 
-main div:last-child img:last-child{
+#alertDiv .xAlert{
   cursor: pointer;
 }
 
