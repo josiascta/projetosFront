@@ -1,0 +1,74 @@
+#contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../assets/Background_Contacts.png");
+  background-size: cover;
+  gap: 48px;
+  padding-block: 128px 200px;
+}
+
+#contact .contact-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 420px;
+  height: 91px;
+
+}
+
+#contact .contact-title p:first-child{
+  font: var(--subtitle);
+  color: var(--color-purple);
+}
+
+#contact .contact-title p:nth-child(2){
+  font: var(--title-md);
+  color: var(--color-gray-600);
+}
+
+#contact .contact-title p:nth-child(3){
+  font: var(--text-md);
+  color: var(--color-gray-500);
+}
+
+#contact .contact-cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+#contact .contact-cards a{
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  width: 400px;
+  height: 68px;
+  border-radius: 8px;
+  background-color: var(--color-gray-300);
+  gap: 12px;
+  font: var(--text-md);
+  color: var(--color-gray-500);
+  padding: 20px;
+  border: 1px solid transparent; 
+  transition: border 0.5s ease; 
+}
+
+#contact .contact-cards a:hover {
+  border: 1px solid var(--color-blue);
+}
+
+#contact .contact-cards a img:first-child{
+  width: 28px;
+  height: 28px;
+}
+#contact .contact-cards a img:last-child{
+  width: 20px;
+  height: 20px;
+}
+
+#contact .contact-cards span{
+  flex-grow: 1;
+}

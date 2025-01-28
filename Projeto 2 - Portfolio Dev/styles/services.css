@@ -1,0 +1,60 @@
+.services{
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+  padding-block: 88px 120px;
+}
+
+.services > div:first-child{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services div:first-child p{
+  font: var(--subtitle);
+  color: var(--color-red);
+}
+
+.services-cards{
+  display: flex;
+  gap: 24px;
+}
+
+
+
+.services-cards > div{
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  min-width: 280px;
+  min-height: 155px;
+  border: 2px solid var(--color-gray-300);
+  gap: 27.5px;
+  padding: 20px;
+}
+
+.services-cards div img{
+  width: 48px;
+  height: 48px;
+  
+}
+
+.services-cards div div{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.services-cards div div p:nth-child(1){
+  font: var(--title-sm);
+  color: var(--color-gray-600);
+}
+
+.services-cards div div p:nth-child(2){
+  font: var(--text-sm);
+  color: var(--color-gray-500);
+}
+
